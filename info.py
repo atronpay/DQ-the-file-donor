@@ -44,8 +44,8 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 # MongoDB information
 SECONDDB_URI = "mongodb+srv://mrunal:mrunal@cluster0.asuukqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DATABASE_URI = "mongodb+srv://mrunal:mrunal@cluster0.asuukqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DATABASE_NAME = "Anshrobot2"
-COLLECTION_NAME = "Ansh robot 2"
+DATABASE_NAME = "Mrunal8"
+COLLECTION_NAME = "Telegram_files"
 # Others
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
