@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = 28760137
 API_HASH = "c84f930b793737e62d5efe74df5d7420"
-BOT_TOKEN ="7079739931:AAHnJyszoUNJV4X0p5L12KnU_3BLxiwWseM"
+BOT_TOKEN ="6533208700:AAGcoDXXtnG3QqYnrBTePIi089OWxxTspnA"
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -42,7 +42,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-SECONDDB_URI = "mongodb+srv://mrunal:mrunal@cluster0.asuukqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0""
+SECONDDB_URI = "mongodb+srv://mrunal:mrunal@cluster0.asuukqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DATABASE_URI = "mongodb+srv://mrunal:mrunal@cluster0.asuukqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DATABASE_NAME = "Anshrobot2"
 COLLECTION_NAME = "Ansh robot 2"
